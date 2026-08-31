@@ -23,6 +23,7 @@ CI enforces the format. Rows that don't match are rejected.
 | Date | Ticket | Engine | PR | Status | Summary |
 |------|--------|--------|-----|--------|---------|
 <!-- agents append new rows directly below this line, newest first -->
+| 2026-08-31 | TICKET-173 | mobile | https://github.com/Authority10240/gearsh-mobile/pull/9 | MERGED | Real i18n (plan item 10): intl_utils codegen over the 8 translated ARBs replaces the same-strings stub; compat shim keeps the AppLocalizations import path; LocaleController binds MaterialApp.locale so the language picker applies instantly. analyze 0 issues; 21/21 tests. |
 | 2026-08-31 | TICKET-171 | mobile | https://github.com/Authority10240/gearsh-mobile/pull/8 | MERGED | Check-in geolocation stamp (plan item 8): LocationService (permission-safe, never blocks) feeds lat/lng through the check-in transition; iOS+Android permission declarations; denial degrades to unstamped check-in. analyze 0 issues; 21/21 tests. |
 | 2026-08-31 | DATA-REPAIR-004 | data | https://github.com/Authority10240/gearsh-data-engine/pull/2 | MERGED | Optional lat/lng on POST /v1/bookings/:id/check-in; PostGIS geography stamp written onto the status-history row via raw SQL (spec: geolocation stamps). 237/237 tests. |
 | 2026-08-31 | TICKET-170 | mobile | https://github.com/Authority10240/gearsh-mobile/pull/7 | MERGED | Real notification preferences (plan item 7): load → optimistic toggle → PUT over /v1/notifications/preferences with channels, classes, quiet-hours pickers; failed saves roll back to server truth. analyze 0 issues; 21/21 tests. |
