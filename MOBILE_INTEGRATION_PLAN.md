@@ -19,8 +19,8 @@ without credentials forever.
 |---|---|---|---|---|---|
 | A1 | **Apple Developer Program** enrolment ($99/yr) | Collins (CLIENT) | Item 1 (Sign in with Apple), Item 2 (APNs push), TestFlight | days → 2 weeks (D‑U‑N‑S) | REQUESTED |
 | A2 | **Huawei AppGallery Connect** developer account (free) | Collins (CLIENT) | Item 1 (Huawei sign-in) | 1–2 days identity check | REQUESTED |
-| A3 | **GCP projects + billing** (staging/prod) | Collins (CLIENT) | Firebase-in-org (Items 1–3), Maps billing (Item 9) | same day | REQUESTED |
-| A4 | **Firebase project** (staging + prod), Auth providers enabled | Freedom (ENG), after A3 | Items 1, 2, 3 | same day | — |
+| A3 | **GCP projects + billing** (staging/prod) | Collins (CLIENT) | Maps billing (Item 9) — Firebase already live on gearsh-806df | same day | REQUESTED |
+| A4 | **Firebase project** (staging + prod), Auth providers enabled | Freedom (ENG) | Items 1, 2, 3 | same day | **VERIFIED** — gearsh-806df live: mobile apps registered, email+Google+Apple providers on, Admin SDK key issued, login e2e green on the real gateway (TICKET-174) |
 | A5 | **APNs auth key (.p8)** uploaded to FCM | Freedom (ENG), after A1 | Item 2 on iOS | same day | — |
 | A6 | **Apple Services ID + Sign-in key** | Freedom (ENG), after A1 | Item 1 (Apple leg) | same day | — |
 | A7 | **Huawei app ID + secret → Firebase custom OIDC** | Freedom (ENG), after A2 | Item 1 (Huawei leg) | same day | — |
