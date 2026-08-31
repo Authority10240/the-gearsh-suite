@@ -23,6 +23,8 @@ CI enforces the format. Rows that don't match are rejected.
 | Date | Ticket | Engine | PR | Status | Summary |
 |------|--------|--------|-----|--------|---------|
 <!-- agents append new rows directly below this line, newest first -->
+| 2026-08-31 | TICKET-174 | mobile | https://github.com/Authority10240/gearsh-mobile/pull/15 | MERGED | Firebase activation (A4 LIVE): mobile apps registered on existing project gearsh-806df (email+Google+Apple providers already on); plist registered into the Runner target, Google sign-in URL scheme, google-services+crashlytics gradle plugins, FIREBASE_PROJECT_ID in env → RealFirebaseGateway. VERIFIED: login e2e green with 0 stub calls — real RS256 token → Auth Engine Admin SDK → platform JWT. |
+| 2026-08-31 | PLAN-002 | infra | https://github.com/Authority10240/the-gearsh-suite/pull/2 | MERGED | Integration plan: A4 marked VERIFIED (gearsh-806df live). |
 | 2026-08-31 | TICKET-172 | mobile | https://github.com/Authority10240/gearsh-mobile/pull/14 | MERGED | Map view code-ready (item 9): search list/map toggle gated on the Maps key, artist markers from DATA-REPAIR-005 coords, iOS+Android key plumbing with safe empty defaults; iOS sim build verified. Activation = A8 key only. |
 | 2026-08-31 | DATA-REPAIR-005 | data | https://github.com/Authority10240/gearsh-data-engine/pull/3 | MERGED | lat/lng (ST_Y/ST_X of profile geography) on /v1/search hits for map markers. 237/237 tests. |
 | 2026-08-31 | TICKET-166 | mobile | https://github.com/Authority10240/gearsh-mobile/pull/13 | MERGED | Analytics + crash wiring (item 3): auto_route screen-view observer, unified fatal error hooks in main through the gateway (Crashlytics fatal on real builds), session-bound analytics identity. Activation = A4 only. 24/24 tests. |
